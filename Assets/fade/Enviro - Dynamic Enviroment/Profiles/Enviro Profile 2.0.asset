@@ -1,0 +1,1081 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4beab60d43552cb4d89247b229ee1117, type: 3}
+  m_Name: Enviro Profile 2.0
+  m_EditorClassIdentifier: 
+  version: 2.0.0
+  lightSettings:
+    LightColor:
+      key0:
+        serializedVersion: 2
+        rgba: 4285551948
+      key1:
+        serializedVersion: 2
+        rgba: 4285551948
+      key2:
+        serializedVersion: 2
+        rgba: 4360393
+      key3:
+        serializedVersion: 2
+        rgba: 10799338
+      key4:
+        serializedVersion: 2
+        rgba: 13556970
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 30146
+      ctime2: 33423
+      ctime3: 36700
+      ctime4: 65535
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 5
+      m_NumAlphaKeys: 2
+    directLightSunIntensity:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.42
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.75
+        inSlope: 5
+        outSlope: 5
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    directLightMoonIntensity:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.42
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.6
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    shadowIntensity:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.1
+        inSlope: 0.019818276
+        outSlope: 0.019818276
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.43624508
+        value: 0.099333614
+        inSlope: 0.023911247
+        outSlope: 0.023911247
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.55833334
+        value: 0.982659
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    ambientMode: 3
+    ambientIntensity:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.750625
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.750625
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    ambientSkyColor:
+      key0:
+        serializedVersion: 2
+        rgba: 4285551948
+      key1:
+        serializedVersion: 2
+        rgba: 4285551948
+      key2:
+        serializedVersion: 2
+        rgba: 4360393
+      key3:
+        serializedVersion: 2
+        rgba: 12825241
+      key4:
+        serializedVersion: 2
+        rgba: 12825241
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 30146
+      ctime2: 33423
+      ctime3: 37355
+      ctime4: 65535
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 5
+      m_NumAlphaKeys: 2
+    ambientEquatorColor:
+      key0:
+        serializedVersion: 2
+        rgba: 4282659630
+      key1:
+        serializedVersion: 2
+        rgba: 4283582529
+      key2:
+        serializedVersion: 2
+        rgba: 0
+      key3:
+        serializedVersion: 2
+        rgba: 0
+      key4:
+        serializedVersion: 2
+        rgba: 0
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    ambientGroundColor:
+      key0:
+        serializedVersion: 2
+        rgba: 4281936679
+      key1:
+        serializedVersion: 2
+        rgba: 4281415230
+      key2:
+        serializedVersion: 2
+        rgba: 0
+      key3:
+        serializedVersion: 2
+        rgba: 0
+      key4:
+        serializedVersion: 2
+        rgba: 0
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    globalReflections: 1
+    globalReflectionsIntensity: 0.5
+    globalReflectionsUpdate: 0.025
+    globalReflectionsScale: 1
+  volumeLightSettings:
+    Resolution: 2
+    dirVolumeLighting: 1
+    SampleCount: 10
+    ScatteringCoef: 0.2
+    ExtinctionCoef: 0.09
+    Anistropy: 0.5
+    MaxRayLength: 5
+    directLightNoise: 0
+    noiseIntensity: 1
+    noiseIntensityOffset: 0.315
+    noiseScale: 0.01
+    noiseVelocity: {x: 3, y: 1.5}
+  skySettings:
+    skyboxMode: 0
+    customSkyboxMaterial: {fileID: 0}
+    customSkyboxColor: {r: 0, g: 0, b: 0, a: 0}
+    waveLength: {x: 540, y: 496, z: 437}
+    rayleigh: 5.15
+    turbidity: 1
+    mie: 8
+    g: 0.9
+    scatteringCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -25
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: -10
+        inSlope: 55
+        outSlope: 55
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.52
+        value: 6.5
+        inSlope: 35
+        outSlope: 35
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 11
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    scatteringColor:
+      key0:
+        serializedVersion: 2
+        rgba: 4291334788
+      key1:
+        serializedVersion: 2
+        rgba: 4291334788
+      key2:
+        serializedVersion: 2
+        rgba: 10270463
+      key3:
+        serializedVersion: 2
+        rgba: 13816530
+      key4:
+        serializedVersion: 2
+        rgba: 13816530
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 29491
+      ctime2: 34537
+      ctime3: 49151
+      ctime4: 65535
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 5
+      m_NumAlphaKeys: 2
+    sunAndMoonPosition: 1
+    sunIntensity: 100
+    sunDiskScale: 20
+    sunDiskIntensity: 3
+    sunDiskColor:
+      key0:
+        serializedVersion: 2
+        rgba: 4278190858
+      key1:
+        serializedVersion: 2
+        rgba: 4279329535
+      key2:
+        serializedVersion: 2
+        rgba: 1534463
+      key3:
+        serializedVersion: 2
+        rgba: 13361919
+      key4:
+        serializedVersion: 2
+        rgba: 16777215
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 29491
+      ctime2: 36044
+      ctime3: 49151
+      ctime4: 65535
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 5
+      m_NumAlphaKeys: 2
+    moonPhaseMode: 1
+    moonTexture: {fileID: 2800000, guid: a1ecb87143451c742941779d0eb2e32f, type: 3}
+    moonColor: {r: 0.61764705, g: 0.61764705, b: 0.61764705, a: 1}
+    moonBrightness: 3
+    moonSize: 10
+    moonGlow:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.2
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.65
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    moonGlowColor: {r: 0.7352941, g: 0.7352941, b: 0.7352941, a: 1}
+    startMoonPhase: 0
+    skyLuminence:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.26559836
+        value: 0.32253987
+        inSlope: 0.2257807
+        outSlope: 0.2257807
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.14452556
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.62
+        value: 0.105
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    skyColorPower:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1.25
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    skyExposure: 1.5
+    starsCubeMap: {fileID: 8900000, guid: 39b57397df78c0c44a8f13e715e91a6a, type: 3}
+    starsIntensity:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.3
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5
+        value: 0.015
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    noiseScale: 10
+    noiseIntensity: 1.5
+  cloudsSettings:
+    cloudsQuality: 1
+    cloudsWorldScale: 113081
+    bottomCloudHeight: 3000
+    topCloudHeight: 6000
+    useWindZoneDirection: 0
+    cloudsTimeScale: 1
+    cloudsWindStrengthModificator: 0.025
+    cloudsWindDirectionX: 1
+    cloudsWindDirectionY: 1
+    raymarchSteps: 200
+    cloudsRenderResolution: 4
+    hgPhase: 0.5
+    primaryAttenuation: 5
+    secondaryAttenuation: 10
+    volumeCloudsColor:
+      key0:
+        serializedVersion: 2
+        rgba: 4278190080
+      key1:
+        serializedVersion: 2
+        rgba: 4278190080
+      key2:
+        serializedVersion: 2
+        rgba: 1709847
+      key3:
+        serializedVersion: 2
+        rgba: 5215487
+      key4:
+        serializedVersion: 2
+        rgba: 14340283
+      key5:
+        serializedVersion: 2
+        rgba: 15391939
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 13493
+      ctime2: 30455
+      ctime3: 33731
+      ctime4: 38743
+      ctime5: 65535
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 6
+      m_NumAlphaKeys: 2
+    volumeCloudsMoonColor:
+      key0:
+        serializedVersion: 2
+        rgba: 4278190080
+      key1:
+        serializedVersion: 2
+        rgba: 4282135857
+      key2:
+        serializedVersion: 2
+        rgba: 0
+      key3:
+        serializedVersion: 2
+        rgba: 0
+      key4:
+        serializedVersion: 2
+        rgba: 0
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    directLightIntensity:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: -0.008333334
+        value: 0.036597714
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.38022348
+        value: 0.030045863
+        inSlope: -0.05137701
+        outSlope: -0.05137701
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.47889876
+        value: -0.00044329406
+        inSlope: -0.00418248
+        outSlope: -0.00418248
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5250003
+        value: 0.14368314
+        inSlope: 0.046046156
+        outSlope: 0.046046156
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.15
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    ambientLightIntensity:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.017
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.46
+        value: 0
+        inSlope: -0.00041219013
+        outSlope: -0.00041219013
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.617
+        value: 0.35
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0.3
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    shadowIntensity: 0
+    tonemapping: 0
+    cloudsExposure: 1
+    weatherMapTiling: 5
+    customWeatherMap: {fileID: 0}
+    locationOffset: {x: 0, y: 0}
+    weatherAnimSpeedScale: 0.333
+    baseNoiseUV: 15
+    detailNoiseUV: 40
+    detailQuality: 0
+    globalCloudCoverage: 1
+    cirrusCloudsTexture: {fileID: 2800000, guid: 724998a51cd1bcf438cdc5ca572beef4,
+      type: 3}
+    cirrusCloudsColor:
+      key0:
+        serializedVersion: 2
+        rgba: 4279899927
+      key1:
+        serializedVersion: 2
+        rgba: 4279899927
+      key2:
+        serializedVersion: 2
+        rgba: 2512263
+      key3:
+        serializedVersion: 2
+        rgba: 12105912
+      key4:
+        serializedVersion: 2
+        rgba: 16773358
+      key5:
+        serializedVersion: 2
+        rgba: 16777215
+      key6:
+        serializedVersion: 2
+        rgba: 16772844
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 30697
+      ctime2: 32982
+      ctime3: 36551
+      ctime4: 38122
+      ctime5: 65535
+      ctime6: 65535
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 6
+      m_NumAlphaKeys: 2
+    cirrusCloudsAltitude: 10
+    flatCloudsNoiseTexture: {fileID: 2800000, guid: c7234e1638b0900438834895bdf44729,
+      type: 3}
+    flatCloudsResolution: 3
+    flatCloudsColor:
+      key0:
+        serializedVersion: 2
+        rgba: 4279899927
+      key1:
+        serializedVersion: 2
+        rgba: 4279899927
+      key2:
+        serializedVersion: 2
+        rgba: 9486834
+      key3:
+        serializedVersion: 2
+        rgba: 12105912
+      key4:
+        serializedVersion: 2
+        rgba: 16773358
+      key5:
+        serializedVersion: 2
+        rgba: 16770002
+      key6:
+        serializedVersion: 2
+        rgba: 16777215
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 31226
+      ctime2: 33539
+      ctime3: 35659
+      ctime4: 39835
+      ctime5: 65535
+      ctime6: 65535
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 6
+      m_NumAlphaKeys: 2
+    flatCloudsScale: 0.35
+    flatCloudsAltitude: 50
+  weatherSettings:
+    useTag: 0
+    wetnessAccumulationSpeed: 0.05
+    wetnessDryingSpeed: 0.05
+    snowAccumulationSpeed: 0.05
+    snowMeltingSpeed: 0.05
+    cloudTransitionSpeed: 1
+    fogTransitionSpeed: 1
+    effectTransitionSpeed: 1
+    audioTransitionSpeed: 0.1
+  fogSettings:
+    Fogmode: 2
+    distanceFog: 1
+    useRadialDistance: 1
+    startDistance: 0
+    distanceFogIntensity: 7.07
+    maximumFogDensity: 0.9
+    heightFog: 1
+    height: 25
+    heightFogIntensity: 1
+    heightDensity: 1.000001
+    mie: 5
+    g: 5
+    fogDitheringScale: 240
+    fogDitheringIntensity: 0.5
+    skyFogIntensity: 0.48599976
+  lightshaftsSettings:
+    resolution: 1
+    screenBlendMode: 0
+    useDepthTexture: 1
+    lightShaftsColorSun:
+      key0:
+        serializedVersion: 2
+        rgba: 4282151167
+      key1:
+        serializedVersion: 2
+        rgba: 4278214143
+      key2:
+        serializedVersion: 2
+        rgba: 14677247
+      key3:
+        serializedVersion: 2
+        rgba: 16777215
+      key4:
+        serializedVersion: 2
+        rgba: 0
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 30801
+      ctime2: 42598
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 4
+      m_NumAlphaKeys: 2
+    lightShaftsColorMoon:
+      key0:
+        serializedVersion: 2
+        rgba: 4293240980
+      key1:
+        serializedVersion: 2
+        rgba: 4293240980
+      key2:
+        serializedVersion: 2
+        rgba: 0
+      key3:
+        serializedVersion: 2
+        rgba: 0
+      key4:
+        serializedVersion: 2
+        rgba: 0
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    thresholdColorSun:
+      key0:
+        serializedVersion: 2
+        rgba: 4280098077
+      key1:
+        serializedVersion: 2
+        rgba: 4280098077
+      key2:
+        serializedVersion: 2
+        rgba: 10921638
+      key3:
+        serializedVersion: 2
+        rgba: 13684944
+      key4:
+        serializedVersion: 2
+        rgba: 12829635
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 28180
+      ctime2: 35389
+      ctime3: 42598
+      ctime4: 65535
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 5
+      m_NumAlphaKeys: 2
+    thresholdColorMoon:
+      key0:
+        serializedVersion: 2
+        rgba: 4278913803
+      key1:
+        serializedVersion: 2
+        rgba: 4278190080
+      key2:
+        serializedVersion: 2
+        rgba: 0
+      key3:
+        serializedVersion: 2
+        rgba: 0
+      key4:
+        serializedVersion: 2
+        rgba: 0
+      key5:
+        serializedVersion: 2
+        rgba: 0
+      key6:
+        serializedVersion: 2
+        rgba: 0
+      key7:
+        serializedVersion: 2
+        rgba: 0
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    blurRadius: 6
+    intensity: 0.6
+    maxRadius: 10
+  seasonsSettings:
+    SpringInDays: 90
+    SummerInDays: 93
+    AutumnInDays: 92
+    WinterInDays: 90
+  audioSettings:
+    ThunderSFX:
+    - {fileID: 8300000, guid: 75cb3b7de46a97b4bbd4b4fd2dcc2b50, type: 3}
+    - {fileID: 8300000, guid: ce53c01354790ae4dad1d74800487066, type: 3}
+    - {fileID: 8300000, guid: 7bff45a3e770cbc48b170ce323aed3af, type: 3}
+    - {fileID: 8300000, guid: eb8c1b0f82ffe784da2459bc295b4854, type: 3}
+    - {fileID: 8300000, guid: e410de94ef87c1b4998b2d4731a717bc, type: 3}
+    - {fileID: 8300000, guid: 0ae49160148d1e540b5a43b368cf77c5, type: 3}
+    - {fileID: 8300000, guid: 46a48432833534046849d015a9b97991, type: 3}
+    - {fileID: 8300000, guid: ab04243538787714d99698a6403052e2, type: 3}
+  satelliteSettings:
+    additionalSatellites: []
+  qualitySettings:
+    GlobalParticleEmissionRates: 1
+    UpdateInterval: 0.5
+  viewMode: 0
+  showPlayerSetup: 1
+  showRenderingSetup: 1
+  showComponentsSetup: 0
+  showTimeUI: 1
+  showWeatherUI: 1
+  showAudioUI: 0
+  showEffectsUI: 1
+  modified: 0
