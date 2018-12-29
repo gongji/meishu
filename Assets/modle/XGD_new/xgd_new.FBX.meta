@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 423b72d0b3d49a445989e8239a122c9b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ' 1'
+    100002: ' 2'
+    100004: 001
+    100006: 01shixunzhongxin
+    100008: 01shixunzhongxin 1
+    100010: 02xueshengzhongxin
+    100012: 02xueshengzhongxin 1
+    100014: 03tiyuguan
+    100016: 03tiyuguan 1
+    100018: 04makesiyurenwen
+    100020: 04makesiyurenweu
+    100022: 05jisuanji
+    100024: 05jisuanji 1
+    100026: 06dongliyunengyuan
+    100028: 07lixueyujianzhu
+    100030: 07lixueyujianzhu 1
+    100032: 08guanlixueyuan
+    100034: 08guanlixueyuan 1
+    100036: 09tushguan
+    100038: 09tushugan
+    100040: 10dianzili
+    100042: 11jiaoxuelou xi
+    100044: 12jiaoxuelou  dong
+    100046: 12jiaoxuelou dong
+    100048: 13shiyanlou
+    100050: 13shiyanlou 1
+    100052: 14youyongguan
+    100054: 14youyongguan 1
+    100056: 15hanghaixueyuan
+    100058: 15hanghaixueyuan 1
+    100060: 17qixiang
+    100062: 17qixianglou
+    100064: 18feiji
+    100066: 18feiji 1
+    100068: 19hezunguancahng
+    100070: 19hezunguangchang
+    100072: ditu
+    100074: ditu 1
+    100076: dongli nengyuan
+    100078: //RootNode
+    100080: shui
+    400000: ' 1'
+    400002: ' 2'
+    400004: 001
+    400006: 01shixunzhongxin
+    400008: 01shixunzhongxin 1
+    400010: 02xueshengzhongxin
+    400012: 02xueshengzhongxin 1
+    400014: 03tiyuguan
+    400016: 03tiyuguan 1
+    400018: 04makesiyurenwen
+    400020: 04makesiyurenweu
+    400022: 05jisuanji
+    400024: 05jisuanji 1
+    400026: 06dongliyunengyuan
+    400028: 07lixueyujianzhu
+    400030: 07lixueyujianzhu 1
+    400032: 08guanlixueyuan
+    400034: 08guanlixueyuan 1
+    400036: 09tushguan
+    400038: 09tushugan
+    400040: 10dianzili
+    400042: 11jiaoxuelou xi
+    400044: 12jiaoxuelou  dong
+    400046: 12jiaoxuelou dong
+    400048: 13shiyanlou
+    400050: 13shiyanlou 1
+    400052: 14youyongguan
+    400054: 14youyongguan 1
+    400056: 15hanghaixueyuan
+    400058: 15hanghaixueyuan 1
+    400060: 17qixiang
+    400062: 17qixianglou
+    400064: 18feiji
+    400066: 18feiji 1
+    400068: 19hezunguancahng
+    400070: 19hezunguangchang
+    400072: ditu
+    400074: ditu 1
+    400076: dongli nengyuan
+    400078: //RootNode
+    400080: shui
+    2100000: 02xueshenghuodongzhongxin
+    2100002: 11jiaoxuelou xi
+    2100004: 13shiyanlou
+    2100006: 09tushuguan
+    2100008: 01shixunzhongxin
+    2100010: 15hanghaixueyuan
+    2100012: 14youyongguan
+    2100014: 03tiyuguan
+    2100016: 04makesirenwen
+    2100018: 05jisuanji
+    2100020: 07lixueyujianzhu
+    2100022: dongliyunengyuan
+    2100024: 08guanlixueyuan
+    2100026: 10diznili
+    2100028: 12jiaoxueloudong
+    2100030: 17qixianglou
+    2100032: 18feij
+    2100034: 'Material #71'
+    2100036: 19huzun
+    2100038: 'Material #134'
+    2100040: ditu
+    2300000: ' 1'
+    2300002: ' 2'
+    2300004: 001
+    2300006: 01shixunzhongxin 1
+    2300008: 02xueshengzhongxin 1
+    2300010: 03tiyuguan 1
+    2300012: 04makesiyurenweu
+    2300014: 05jisuanji 1
+    2300016: 07lixueyujianzhu 1
+    2300018: 08guanlixueyuan 1
+    2300020: 09tushugan
+    2300022: 12jiaoxuelou dong
+    2300024: 13shiyanlou 1
+    2300026: 14youyongguan 1
+    2300028: 15hanghaixueyuan 1
+    2300030: 17qixiang
+    2300032: 18feiji 1
+    2300034: 19hezunguancahng
+    2300036: ditu 1
+    2300038: dongli nengyuan
+    2300040: shui
+    2300042: 01shixunzhongxin
+    2300044: 02xueshengzhongxin
+    2300046: 03tiyuguan
+    2300048: 05jisuanji
+    2300050: 07lixueyujianzhu
+    2300052: 08guanlixueyuan
+    2300054: 13shiyanlou
+    2300056: 14youyongguan
+    2300058: 15hanghaixueyuan
+    2300060: 18feiji
+    2300062: ditu
+    3300000: ' 1'
+    3300002: ' 2'
+    3300004: 001
+    3300006: 01shixunzhongxin 1
+    3300008: 02xueshengzhongxin 1
+    3300010: 03tiyuguan 1
+    3300012: 04makesiyurenweu
+    3300014: 05jisuanji 1
+    3300016: 07lixueyujianzhu 1
+    3300018: 08guanlixueyuan 1
+    3300020: 09tushugan
+    3300022: 12jiaoxuelou dong
+    3300024: 13shiyanlou 1
+    3300026: 14youyongguan 1
+    3300028: 15hanghaixueyuan 1
+    3300030: 17qixiang
+    3300032: 18feiji 1
+    3300034: 19hezunguancahng
+    3300036: ditu 1
+    3300038: dongli nengyuan
+    3300040: shui
+    3300042: 01shixunzhongxin
+    3300044: 02xueshengzhongxin
+    3300046: 03tiyuguan
+    3300048: 05jisuanji
+    3300050: 07lixueyujianzhu
+    3300052: 08guanlixueyuan
+    3300054: 13shiyanlou
+    3300056: 14youyongguan
+    3300058: 15hanghaixueyuan
+    3300060: 18feiji
+    3300062: ditu
+    4300000: 02xueshengzhongxin
+    4300004: 13shiyanlou
+    4300006: 09tushugan
+    4300008: 01shixunzhongxin
+    4300010: 15hanghaixueyuan
+    4300012: 14youyongguan
+    4300014: 03tiyuguan
+    4300016: 04makesiyurenweu
+    4300018: 05jisuanji
+    4300020: 07lixueyujianzhu
+    4300022: dongli nengyuan
+    4300024: 08guanlixueyuan
+    4300028: 12jiaoxuelou dong
+    4300030: 17qixiang
+    4300032: 18feiji
+    4300034: 19hezunguancahng
+    4300036: ditu
+    4300038: 001
+    4300040: shui
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01shixunzhongxin
+    second: {fileID: 2100000, guid: 37acede1591084a4a86f119dd4a88b8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02xueshenghuodongzhongxin
+    second: {fileID: 2100000, guid: 1e352360523a7d040bd306412a8ab900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03tiyuguan
+    second: {fileID: 2100000, guid: c04c74d5bb190714bbba9fe697ef5d3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04makesirenwen
+    second: {fileID: 2100000, guid: 4d0a2c04d8c471241a099f7087143d56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05jisuanji
+    second: {fileID: 2100000, guid: 707e764871848a94bad1508d564d4b5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07lixueyujianzhu
+    second: {fileID: 2100000, guid: b8e15e77e789fd549b76d62096a0fbbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08guanlixueyuan
+    second: {fileID: 2100000, guid: f0036b45b2f1155428dc694211dc813b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09tushuguan
+    second: {fileID: 2100000, guid: afa78998dc4cbc24db2aa481be60b21c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10diznili
+    second: {fileID: 2100000, guid: adf6263d6c8aafe4180505aa6bd6c34e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11jiaoxuelou xi
+    second: {fileID: 2100000, guid: cdf8874831ce3dc4482d57a1898b4272, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12jiaoxueloudong
+    second: {fileID: 2100000, guid: b8f8392fdf9fe924eb2d5c204cefede8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13shiyanlou
+    second: {fileID: 2100000, guid: aefdb097f6cb207449e832d0d96f407f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14youyongguan
+    second: {fileID: 2100000, guid: ecd885d4eab9f924cba3b1df663aeefd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15hanghaixueyuan
+    second: {fileID: 2100000, guid: 574c1f3a78647f141a15e47992a63056, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 17qixianglou
+    second: {fileID: 2100000, guid: 8ef2361227e82e841afa63dbb572070f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 18feij
+    second: {fileID: 2100000, guid: 6ff142cea0401774e9beb236ab14be7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19huzun
+    second: {fileID: 2100000, guid: b6f39b6063a2c724bae84f9d9a8d15d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #134'
+    second: {fileID: 2100000, guid: dbf8de5a226b6734c92d293c90206479, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #71'
+    second: {fileID: 2100000, guid: 67bdc7de161c1fb4d91be7c724361b6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ditu
+    second: {fileID: 2100000, guid: 4f00736877bfb3c459140d017d6aca86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dongliyunengyuan
+    second: {fileID: 2100000, guid: 98f4b05d74af03c478540ef69a8442f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shui
+    second: {fileID: 2100000, guid: 64fa96989ba125742bc052e710a47119, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
