@@ -22,7 +22,7 @@ public class BuildAssetBundleUtil
     static void PackAsset()
     {
         BuildAssetBundleOptions buildOptions = BuildAssetBundleOptions.DeterministicAssetBundle;
-        BuildTarget buildTarget = BuildTarget.WebGL;
+        BuildTarget buildTarget = BuildTarget.StandaloneWindows;
         GenerateAssetBundle(buildOptions, buildTarget,false,false,false);
     }
 
@@ -30,7 +30,7 @@ public class BuildAssetBundleUtil
     static void PackAsset2()
     {
         BuildAssetBundleOptions buildOptions = BuildAssetBundleOptions.DeterministicAssetBundle;
-        BuildTarget buildTarget = BuildTarget.WebGL;
+        BuildTarget buildTarget = BuildTarget.StandaloneWindows;
         GenerateAssetBundle(buildOptions, buildTarget, true, false, false);
     }
 
@@ -38,7 +38,7 @@ public class BuildAssetBundleUtil
     static void PackAsset3()
     {
         BuildAssetBundleOptions buildOptions =  BuildAssetBundleOptions.DeterministicAssetBundle;
-        BuildTarget buildTarget = BuildTarget.WebGL;
+        BuildTarget buildTarget = BuildTarget.StandaloneWindows;
         GenerateAssetBundle(buildOptions, buildTarget, false, true, true);
     }
 
@@ -187,7 +187,7 @@ public class BuildAssetBundleUtil
                 string objectPath = path + "/" + obj.name + ".br";
                 UnityEngine.Object[] selection = Selection.GetFiltered(typeof(UnityEngine.Object), SelectionMode.DeepAssets);
                // EditorTool.AddColliderScript(Selection.activeGameObject);
-                BuildPipeline.BuildAssetBundle(Selection.activeObject, Selection.objects, objectPath, BuildAssetBundleOptions.ChunkBasedCompression, BuildTarget.WebGL);
+                BuildPipeline.BuildAssetBundle(Selection.activeObject, Selection.objects, objectPath, BuildAssetBundleOptions.ChunkBasedCompression, BuildTarget.StandaloneWindows);
 
                 //BuildPipeline.BuildAssetBundles("D:/output", BuildAssetBundleOptions.ChunkBasedCompression, BuildTarget.StandaloneWindows);
 
